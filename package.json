@@ -1,0 +1,13 @@
+{
+  "name": "TabsField",
+  "version": "0.1.0-beta",
+  "description": "A tabs field for the panel, to use with $field->when() conditions.",
+  "main": "index.js",
+  "author": "Daan de Lange",
+  "license": "MIT",
+  "repository": "https://github.com/daandelange/kirby3-tabsfield",
+  "scripts": {
+    "dev": "kirbyup src/index.js --watch",
+    "build": "kirbyup src/index.js"
+  }
+}

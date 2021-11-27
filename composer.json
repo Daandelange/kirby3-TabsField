@@ -1,0 +1,25 @@
+{
+  "name": "daandelange/tabsfield",
+  "description": "A tabs field for the panel, to use with $field->when() conditions.",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "homepage": "https://github.com/daandelange/kirby3-tabsfield",
+  "version": "0.1.0-beta",
+  "authors": [
+    {
+      "name": "Daan de Lange",
+      "homepage": "https://github.com/daandelange/kirby3-tabsfield"
+    }
+  ],
+  "keywords": [
+      "kirby3",
+      "kirby3-plugin",
+      "kirby3-field-plugin"
+  ],
+  "require": {
+    "getkirby/composer-installer": "^1.2"
+  },
+  "extra": {
+    "installer-name": "tabsfield"
+  }
+}
