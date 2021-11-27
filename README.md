@@ -96,8 +96,6 @@ In order to re-use the KTabs component, you need to make some symlinks to kirby'
 # Otherwise change the relative path according to your kirby setup.
 cd site/plugins/tabsfield
 ln -s ../../../../kirby/panel/src/ ./src/panel
-#ln -s ../../../../kirby/panel/src/mixins ./src/mixins
-#ln -s ../../../../kirby/panel/src/helpers ./src/helpers
 ````
 
 - `npm install` : Install the required dependencies.
@@ -113,4 +111,4 @@ However, for usage in commercial projects, please consider to improve the plugin
 ## Credits
 In loving memory of the Kirby 2 alternative : [Kirby-Tabs-Field](https://github.com/afbora/Kirby-Tabs-Field) by @afbora.
 
-Author: [Daan de Lange](https://getkirby.com/plugins/daandelange)
+Author: [Daan de Lange](https://daandelange.com/)
