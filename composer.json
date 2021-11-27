@@ -4,11 +4,11 @@
   "type": "kirby-plugin",
   "license": "MIT",
   "homepage": "https://github.com/daandelange/kirby3-tabsfield",
-  "version": "0.1.0-beta",
+  "version": "0.1.1-beta",
   "authors": [
     {
       "name": "Daan de Lange",
-      "homepage": "https://github.com/daandelange/kirby3-tabsfield"
+      "homepage": "https://daandelange.com/"
     }
   ],
   "keywords": [

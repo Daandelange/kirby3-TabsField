@@ -1,6 +1,6 @@
 {
   "name": "TabsField",
-  "version": "0.1.0-beta",
+  "version": "0.1.1-beta",
   "description": "A tabs field for the panel, to use with $field->when() conditions.",
   "main": "index.js",
   "author": "Daan de Lange",
