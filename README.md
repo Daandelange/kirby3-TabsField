@@ -1,4 +1,4 @@
-# Kirby tabsfield plugin
+# Kirby TabsField plugin
 
 A tabs field for the panel, to use with $field->when() conditions.
 
