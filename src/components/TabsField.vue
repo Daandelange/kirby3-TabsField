@@ -58,7 +58,7 @@
 <script>
 // Note: this import needs some symlinks... see readme.
 // Directions for extending a core component without importing it : https://github.com/rasteiner/oh-hi-mark/blob/main/src/index.js
-import Tabs from "@/panel/components/Layout/Tabs.vue";
+import Tabs from "@KirbyPanel/components/Layout/Tabs.vue";
 import KirbyContentHackModule from "@/mixins/kirbyContentHackModule.js";
 
 export default {

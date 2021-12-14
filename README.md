@@ -89,14 +89,8 @@ this.$store.dispatch('content/ignorechanges', this.$attrs.name||'myfieldkey');
 There are no options available yet. Would you like to contribute some ?
 
 ## Development
-In order to re-use the KTabs component, you need to make some symlinks to kirby's panel src folder in the `src` folder :
-````bash
-# First ensure the plugin's path is myWebsite/site/plugins/tabsfield
-# Ensure kirby's path is myWebsite/kirby
-# Otherwise change the relative path according to your kirby setup.
-cd site/plugins/tabsfield
-ln -s ../../../../kirby/panel/src/ ./src/panel
-````
+If you use a non-default Kirby folder structure, you need to locate Kirby's panel src folder in order to re-use the KTabs component.  
+You may set the relative path by editing `kirbyup.config.ts`.
 
 - `npm install` : Install the required dependencies.
 - `npm run dev` : Develop mode (listen/compile).

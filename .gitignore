@@ -6,3 +6,6 @@
 
 # Composer files
 /vendor
+
+# Kirbyup userconfig
+kirbyup.config.ts
