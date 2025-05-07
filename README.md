@@ -17,13 +17,11 @@ Features:
 
 Please refer to the following Kirby version compatibility table.
 
-| ------------- | ----------------------- |
-| Kirby version | TabsField version |
+| Kirby version | TabsField version       |
 | ------------- | ----------------------- |
 | Kirby 3.6+    | TabsField 0.1.0-beta+   |
 | Kirby 4.0+    | _Unsupported_           |
 | Kirby 5.0+    | TabsField 1.0.0+        |
-| ------------- | ----------------------- |
 
 ## Installation
 
