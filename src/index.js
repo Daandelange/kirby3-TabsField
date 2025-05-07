@@ -7,5 +7,4 @@ panel.plugin("daandelange/tabsfield", {
   fields: {
     tabs: TabsField,
   },
-
 });

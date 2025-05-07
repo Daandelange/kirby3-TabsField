@@ -1,6 +1,14 @@
 <?php
 
-Kirby::plugin('daandelange/tabsfield', [
+Kirby::plugin(
+    // Kirby plugin info (visible in panel)
+    name: 'daandelange/tabsfield',
+    info: [
+        'license' => 'MIT'
+    ],
+    version: '1.0.0',
+    extends: [
+
     'fields' => [
         // A tab field, so sections can be tabbed too
         'tabs' => [
@@ -8,10 +16,10 @@ Kirby::plugin('daandelange/tabsfield', [
                 //'value' => null, // Null values are not saved in content folder, seemingly
 
                 // Optional settings
-                'disabled' => true,
+                'disabled' => true, // prevents saving ?
                 'translate' => false,
                 'saveable'  => false,
-                'novalidate'    => true,
+                'novalidate' => true,
                 'value' => function ($data = null) {
                     return null;
                 },
@@ -47,8 +55,7 @@ Kirby::plugin('daandelange/tabsfield', [
             'isValid'   => function(){
                 return false;
             },
-            'when' => ['test'=>true],
-            'isDisabled' => function(){
+            'isDisabled' => function(){ // prevents saving ?
                 return true;
             },
             'translate' => function(){
@@ -59,4 +66,5 @@ Kirby::plugin('daandelange/tabsfield', [
             },
         ],
     ],
-]);
+    ]// end extends array
+);

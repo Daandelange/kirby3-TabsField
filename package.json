@@ -1,16 +1,16 @@
 {
   "name": "TabsField",
-  "version": "0.1.1-beta",
-  "description": "A tabs field for the panel, to use with $field->when() conditions.",
+  "version": "1.0.0",
+  "description": "A tabs field for the panel, to use with `when` conditions in field and section blueprints.",
   "main": "index.js",
   "author": "Daan de Lange",
   "license": "MIT",
-  "repository": "https://github.com/daandelange/kirby3-tabsfield",
+  "repository": "https://github.com/daandelange/kirby-tabsfield",
   "scripts": {
-    "dev": "kirbyup src/index.js --watch",
+    "dev": "kirbyup serve src/index.js",
     "build": "kirbyup src/index.js"
   },
   "devDependencies": {
-    "kirbyup": "^0.22.0"
+    "kirbyup": "^3.3.0"
   }
 }
